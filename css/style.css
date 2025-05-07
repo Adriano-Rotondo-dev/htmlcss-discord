@@ -215,7 +215,7 @@ footer{
     padding: 60px;
 }
 .footer-top{
-    min-height: 400px;
+    max-height: 400px;
     padding-bottom: 30px;
     border-bottom: 1px solid  #648AE8;
     display: flex;
@@ -224,12 +224,12 @@ footer{
 .bigfoot{
     background-color: var(--box-color-footer-big);
     min-width: 15%;
-    min-height: 50%;
+    min-height: 30%;
 }
 .smallfoot{
     background-color: var(--box-color-footer-small);
     min-width: 8%;
-    min-height: 50%;
+    min-height: 30%;
     border:1px dashed white;
 }
     
@@ -240,8 +240,17 @@ footer{
     margin-top: 20px;
     padding-bottom: 50px;    
 }
+.foot-ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 0 10px;
 
-
+}
+.foot-li{
+    list-style-type:none;
+    
+}
 
 
 /*#endregion#*/
