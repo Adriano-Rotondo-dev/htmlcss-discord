@@ -72,21 +72,20 @@ li{
     border-radius: 15px;
     padding: 7px;
     border:1px solid transparent;
-    .black {
-        background-color: black;
-        color: white;
-    }
+}
+.btn.browser-link {
+background-color: black;
+color: white;
 }
 /*#endregion*/
 /*#region JUMBOTRON*/
 .jumbotron {
     background-image: url(../img/jumbo.png);  
     background-size:cover;  
-    min-height: 300px;
-    padding: 60px;    
+    min-height: 570px;
+    padding: 60px;     
     .jumbotron-content {
         color: white;
-        width: 100%;
         text-align: center;
     }
 }
