@@ -47,7 +47,8 @@ img.video-call{
 min-height: 10px;    
 display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
+margin: 0 300px;
 
 }
 .navbar>* {
