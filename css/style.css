@@ -28,9 +28,11 @@
     
     
 }
+/* Border Debug
 .border {
 border: 1px dashed black;
 }
+*/
 h3{
     background-image: url(../img/stars.svg);
     height: 10px;
@@ -109,6 +111,11 @@ list-style-type: none;
     color:white;
     font-size:small;
     border-radius:100px;
+}
+.language{
+    border: 1px solid transparent;
+    background-color: transparent;
+    color:white;    
 }
 /*#endregion*/
 /*#region JUMBOTRON*/
@@ -225,13 +232,20 @@ footer{
     color: var(--btn-color-footer);
     font-weight: 600;
     font-size: large;
-    min-width:15%;
+    max-width:10%;
     min-height: 30%;
+    margin-right: 50px;
+}
+h4{
+    font-size:x-large;
+    padding-bottom: 5px;
+}
+.language-icon{
+    max-width:10%;
 }
 .smallfoot{   
     min-width: 8%;
-    min-height: 30%;
-    border:1px dashed white;
+    min-height: 30%;    
 }
     
 .footer-bottom{
@@ -247,7 +261,6 @@ footer{
     gap:10px;
     padding: 0 10px;
     color: var(--btn-color-footer);
-
 }
 .foot-li{
     color:white;
