@@ -7,15 +7,15 @@
 :root {
     --bg-color-nav: #255EE9;
     --bg-color-main-odd: white;
-    --bg-color-main-even:rgb(192, 192, 192);    
+    --bg-color-main-even:#F6F6F6;    
     --box-color-main-big: transparent
     --box-color-main-small: transparent;
     --box-color-main-bigger: transparent;
-    --bg-color-footer: rgb(87, 86, 86);
+    --bg-color-footer: #23272A;
     --box-color-footer-big: rgb(241, 133, 151);
     --box-color-footer-small: rgb(29, 143, 109);
     --bg-color-footer-box: aquamarine;
-    --btn-color-footer: pink;
+    --btn-color-footer: #648AE8;
 }
 /*#endregion*/
 /*#region UTILS*/
@@ -96,7 +96,12 @@ li{
     background-color: #648AE8;
     color: white;
     margin: 0 100px;
-
+}
+.btn.register{
+    background-color: var(--btn-color-footer);
+    color:white;
+    font-size:small;
+    border-radius:100px;
 }
 /*#endregion*/
 /*#region JUMBOTRON*/
@@ -185,7 +190,7 @@ footer{
 .footer-top{
     min-height: 400px;
     padding-bottom: 30px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid  #648AE8;
     display: flex;
     justify-content: center;
 }
@@ -204,16 +209,11 @@ footer{
 .footer-bottom{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-top: 20px;
-    background-color: var(--bg-color-footer-box);
-    padding:10px 0;
+    padding-bottom: 50px;    
 }
-.footer-bottom>*{
-    padding: 10px 20px;
-    background-color: var(--btn-color-footer); 
-    
-}
+
 
 
 
