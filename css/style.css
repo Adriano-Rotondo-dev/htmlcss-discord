@@ -2,19 +2,17 @@
 *{
     margin:0;
     padding:0;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     
 }
 /*#region Root*/
 :root {
-    --bg-color-jumbo:rgb(4, 4, 148);
     --bg-color-nav: #255EE9;
-    --bg-color-bar: gold;
     --bg-color-main-odd: white;
-    --bg-color-main-even:rgb(192, 192, 192);
-    --box-color-jumbo:rgb(222, 148, 236);
-    --box-color-main-big: rgb(62, 145, 179);
-    --box-color-main-small: pink;
-    --box-color-main-bigger: green;
+    --bg-color-main-even:rgb(192, 192, 192);    
+    --box-color-main-big: transparent
+    --box-color-main-small: transparent;
+    --box-color-main-bigger: transparent;
     --bg-color-footer: rgb(87, 86, 86);
     --box-color-footer-big: rgb(241, 133, 151);
     --box-color-footer-small: rgb(29, 143, 109);
@@ -24,8 +22,10 @@
 /*#endregion*/
 /*UTILS*/
 .container{
-    max-width: 1200px;
-    margin:0 auto;
+    min-width: 1200px;
+    margin:6rem auto;
+    border: 1px dashed white;
+    
 }
 .border {
 border: 1px dashed black;
@@ -36,6 +36,9 @@ border: 1px dashed black;
     background-color: var(--bg-color-nav);
 }
 img {
+    max-width: 70%;
+}
+img.video-call{
     max-width: 100%;
 }
 /*Navbar*/
@@ -67,6 +70,9 @@ li{
 .navbar-login {
     text-align: end;
 }
+/*#endregion*/
+
+/*#region BTNS*/
 .btn {
     background-color: white;
     border-radius: 15px;
@@ -81,7 +87,12 @@ li{
 .btn.download-link {
     font-weight: bold;
 }
+.btn.download-mac{
+    font-weight: bold;
+    background-color: #648AE8;
+    color: white;
 
+}
 /*#endregion*/
 /*#region JUMBOTRON*/
 .jumbotron {
