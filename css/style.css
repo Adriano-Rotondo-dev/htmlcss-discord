@@ -39,10 +39,7 @@ border: 1px dashed black;
 img {
     max-width: 70%;
 }
-img.video-call{
-    max-width: 100%;
-    
-}
+
 /*Navbar*/
 .navbar{
 min-height: 10px;    
@@ -94,6 +91,7 @@ li{
     font-weight: bold;
     background-color: #648AE8;
     color: white;
+    margin: 0 100px;
 
 }
 /*#endregion*/
@@ -102,11 +100,16 @@ li{
     background-image: url(../img/jumbo.png);  
     background-size:cover;  
     min-height: 500px;
-    padding: 60px;     
-    .jumbotron-content {
+    padding: 60px; 
+        .jumbotron-content {
         color: white;
         text-align: center;
+        max-width:600px;
+        
     }
+}
+.links.container{
+    margin:30px;
 }
 /*#endregion*/
 /*#region MAIN*/
@@ -140,7 +143,10 @@ li{
         width: 40%;
     }
 }
-
+img.video-call{
+    max-width: 100%;
+    
+}
 .bottom {
     margin-top:60px;
     display: flex;
