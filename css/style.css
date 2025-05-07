@@ -7,7 +7,7 @@
 /*#region Root*/
 :root {
     --bg-color-jumbo:rgb(4, 4, 148);
-    --bg-color-nav: rgb(154, 194, 194);
+    --bg-color-nav: #255EE9;
     --bg-color-bar: gold;
     --bg-color-main-odd: white;
     --bg-color-main-even:rgb(192, 192, 192);
@@ -47,18 +47,31 @@ justify-content: space-between;
 
 }
 .navbar>* {
-    background-color: var(--bg-color-bar);
+    background-color: transparent;
     flex-basis: 20%;
     flex-grow: 1;
     margin: 5px 0;
     padding: 5px;
-    border: 1px dashed black;
 }
 .navbar-link {
     text-align: center;
+    }
+ul{
+    display: flex;
+    justify-content: space-between;    
+}
+li{    
+    list-style-type: none;
+    color: white;
 }
 .navbar-login {
     text-align: end;
+}
+.login-btn {
+    background-color: white;
+    border-radius: 15px;
+    padding: 7px;
+    border:1px solid transparent;
 }
 /*#endregion*/
 /*#region JUMBOTRON*/
@@ -94,8 +107,7 @@ justify-content: space-between;
     height: 300px;
     padding: 60px;
     display: flex;
-    justify-content: center;
-       
+    justify-content: center;     
     .small {
         background-color: var(--box-color-main-small);
         width: 25%;
