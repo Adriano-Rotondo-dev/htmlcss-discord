@@ -35,6 +35,9 @@ border: 1px dashed black;
 #site-header{
     background-color: var(--bg-color-nav);
 }
+img {
+    max-width: 100%;
+}
 /*Navbar*/
 .navbar{
 min-height: 10px;    
@@ -60,14 +63,13 @@ justify-content: space-between;
 /*#endregion*/
 /*#region JUMBOTRON*/
 .jumbotron {
-    background-color: var(--bg-color-jumbo);
+    background-image: url(../img/jumbo.png);
     height: 300px;
     padding: 60px;
     display: flex;
     justify-content: center;
     .jumbotron-content {
-        background-color: var(--box-color-jumbo);
-        width: 50%;
+        width: 100%;
     }
 }
 /*#endregion*/
