@@ -221,13 +221,14 @@ footer{
     display: flex;
     justify-content: center;
 }
-.bigfoot{
-    background-color: var(--box-color-footer-big);
-    min-width: 15%;
+.bigfoot{   
+    color: var(--btn-color-footer);
+    font-weight: 600;
+    font-size: large;
+    min-width:15%;
     min-height: 30%;
 }
-.smallfoot{
-    background-color: var(--box-color-footer-small);
+.smallfoot{   
     min-width: 8%;
     min-height: 30%;
     border:1px dashed white;
@@ -245,9 +246,11 @@ footer{
     flex-direction: column;
     gap:10px;
     padding: 0 10px;
+    color: var(--btn-color-footer);
 
 }
 .foot-li{
+    color:white;
     list-style-type:none;
     
 }
