@@ -74,9 +74,14 @@ li{
     border:1px solid transparent;
 }
 .btn.browser-link {
-background-color: black;
-color: white;
+    font-weight: bold;
+    background-color: black;
+    color: white;
 }
+.btn.download-link {
+    font-weight: bold;
+}
+
 /*#endregion*/
 /*#region JUMBOTRON*/
 .jumbotron {
