@@ -81,14 +81,17 @@ li{
 }
 .btn.browser-link {
     font-weight: bold;
-    background-color: black;
+    background-color:#23272A;
     color: white;
+    border:5px solid transparent;
+    border-radius: 100px;
 }
 .btn.download-link {
     font-weight: bold;
+    border:5px solid transparent;
+    border-radius: 100px;
 }
-.btn.download-mac{
-    font-weight: bold;
+.btn.download-link.foot{
     background-color: #648AE8;
     color: white;
     margin: 0 100px;
