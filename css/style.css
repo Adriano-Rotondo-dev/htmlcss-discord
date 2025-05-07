@@ -31,6 +31,13 @@
 .border {
 border: 1px dashed black;
 }
+h3{
+    background-image: url(../img/stars.svg);
+    height: 10px;
+    background-repeat:no-repeat;
+    margin:20px;
+    
+}
 /*#endregion*/
 /*#region Header-Navbar*/
 /*header*/
@@ -60,12 +67,12 @@ margin: 0 300px;
 .navbar-link {
     text-align: center;
     }
-ul{
+.navbar-ul{
     display: flex;
     justify-content: space-between;    
 }
-li{    
-    list-style-type: none;
+.navbar-li{    
+list-style-type: none;
     color: white;
 }
 .navbar-login {
@@ -195,6 +202,10 @@ img.video-call{
     align-items: center;
     flex-direction: column;
     margin-bottom: 2px;   
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 /*#endregion*/
