@@ -1,0 +1,156 @@
+/* CSS RESET */
+*{
+    margin:0;
+    padding:0;
+    
+}
+/*#region Root*/
+:root {
+    --bg-color-jumbo:rgb(4, 4, 148);
+    --bg-color-nav: rgb(154, 194, 194);
+    --bg-color-bar: gold;
+    --bg-color-main-odd: white;
+    --bg-color-main-even:rgb(192, 192, 192);
+    --box-color-jumbo:rgb(222, 148, 236);
+    --box-color-main-big: rgb(62, 145, 179);
+    --box-color-main-small: pink;
+    --box-color-main-bigger: green;
+    --bg-color-footer: rgb(87, 86, 86);
+    --box-color-footer-big: rgb(241, 133, 151);
+    --box-color-footer-small: rgb(29, 143, 109);
+    --bg-color-footer-box: aquamarine;
+    --btn-color-footer: pink;
+}
+/*#endregion*/
+/*UTILS*/
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.border {
+border: 1px dashed black;
+}
+/*#region Header-Navbar*/
+/*header*/
+#site-header{
+    background-color: var(--bg-color-nav);
+}
+/*Navbar*/
+.navbar{
+min-height: 10px;    
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.navbar>* {
+    background-color: var(--bg-color-bar);
+    flex-basis: 20%;
+    flex-grow: 1;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px dashed black;
+}
+.navbar-link {
+    text-align: center;
+}
+.navbar-login {
+    text-align: end;
+}
+/*#endregion*/
+/*#region JUMBOTRON*/
+.jumbotron {
+    background-color: var(--bg-color-jumbo);
+    height: 300px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    .jumbotron-content {
+        background-color: var(--box-color-jumbo);
+        width: 50%;
+    }
+}
+/*#endregion*/
+/*#region MAIN*/
+.odd{
+    background-color: var(--bg-color-main-odd);    
+    height: 300px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    .big {
+        background-color: var(--box-color-main-big);
+        width: 40%;
+    }
+    .small{
+        background-color: var(--box-color-main-small);
+        width: 25%;
+    }
+}
+.even{
+    background-color: var(--bg-color-main-even);
+    height: 300px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+       
+    .small {
+        background-color: var(--box-color-main-small);
+        width: 25%;
+    }
+    .big{
+        background-color: var(--box-color-main-big);
+        width: 40%;
+    }
+}
+
+.bottom {
+    height: 600px;
+
+}
+.bigger{
+        background-color: var(--box-color-main-bigger);
+        width: 66%;
+        height: 100%;
+        }
+   
+/*#endregion*/
+/*#region Footer*/
+footer{
+    background-color: var(--bg-color-footer);
+    padding: 60px;
+}
+.footer-top{
+    height: 400px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+.bigfoot{
+    background-color: var(--box-color-footer-big);
+    width: 15%;
+    height: 50%;
+}
+.smallfoot{
+    background-color: var(--box-color-footer-small);
+    width: 8%;
+    height: 50%;
+    border:1px dashed white;
+}
+    
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: var(--bg-color-footer-box);
+    padding:10px 0;
+}
+.footer-bottom>*{
+    padding: 10px 20px;
+    background-color: var(--btn-color-footer); 
+    
+}
+
+/*#endregion#*/
