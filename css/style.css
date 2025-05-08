@@ -34,8 +34,11 @@ h3{
     background-image: url(../img/stars.svg);
     height: 10px;
     background-repeat:no-repeat;
-    margin:20px;
-    
+    margin:20px;    
+}
+h4{
+    font-size:x-large;
+    padding-bottom: 5px;
 }
 /*#endregion*/
 /*#region Header-Navbar*/
@@ -235,10 +238,7 @@ footer{
     min-height: 30%;
     margin-right: 50px;
 }
-h4{
-    font-size:x-large;
-    padding-bottom: 5px;
-}
+
 .language-icon{
     max-width:10%;
 }
