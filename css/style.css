@@ -14,7 +14,7 @@
     --bg-color-footer: #23272A;
     --btn-color-footer: #648AE8;
 }
-/*#endregion*/
+/*#endregion Root*/
 /*#region UTILS*/
 *{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -25,11 +25,7 @@
     
     
 }
-/* Border Debug
-.border {
-border: 1px dashed black;
-}
-*/
+/*#region H-text*/
 h3{
     background-image: url(../img/stars.svg);
     height: 10px;
@@ -40,7 +36,8 @@ h4{
     font-size:x-large;
     padding-bottom: 5px;
 }
-/*#endregion*/
+/*#endregion H-text*/
+/*#endregion UTILS*/
 /*#region Header-Navbar*/
 /*header*/
 #site-header{
